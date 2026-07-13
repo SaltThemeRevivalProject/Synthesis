@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 @use "../top/button";
 
-.appMount_ea7e65 {
+.appMount__51fd7 {
     $button-transparency: 0.3;
     $button-disabled-transparency: 0.8;
     $button-active-darken: 5;
@@ -41,27 +41,27 @@
     --button-outline-brand-background-active: #{rgb($color-button)};
 
     // Buttons
-    .button_dd4f85,
+    .button__201d5,
     .bd-button:not(.bd-addon-button),
-    .topPill_a0 .item_a0,
+    .topPill_aa8da2 .item_aa8da2,
     #bd-pub-button,
-    .streamerModeEnabledBtn_c50c8b,
+    .streamerModeEnabledBtn_aa3ffd,
     .button__33db6 {
         border-radius: 50px;
     }
 
     // More buttons
-    .lookFilled_dd4f85,
-    .lookOutlined_dd4f85,
+    .lookFilled__201d5,
+    .lookOutlined__201d5,
     .lookInverted_a299dc {
         box-shadow: 0 0 5px 0 rgb($color-background);
     }
 
-    .lookFilled_dd4f85.colorBrand_dd4f85 {
+    .lookFilled__201d5.colorBrand__201d5 {
         @include button.button($color-button);
     }
 
-    .lookInverted_a299dc.colorBrand_dd4f85 {
+    .lookInverted_a299dc.colorBrand__201d5 {
         @include button.button($color-text);
     }
 
@@ -74,7 +74,7 @@
         @include button.button($color-red);
     }
 
-    .circleIconButton_db6521.selected_db6521 {
+    .circleIconButton__5bc7e.selected__5bc7e {
         @include button.button($color-green);
     }
 
@@ -83,15 +83,15 @@
         @include button.button($color-button);
     }
 
-    .lookLink_dd4f85.colorLink_dd4f85 {
+    .lookLink__201d5.colorLink__201d5 {
         --text-link: #{rgb($color-text)};
     }
 
-    .lookLink_dd4f85.colorPrimary_dd4f85 {
+    .lookLink__201d5.colorPrimary__201d5 {
         color: #{rgb($color-text)};
     }
 
-    .buttonWhite_b105e9 {
+    .buttonWhite_b322b1 {
         border-color: transparentize($color-text, $button-transparency) !important;
 
         &:hover,
@@ -100,7 +100,7 @@
         }
     }
 
-    .streamerModeEnabledBtn_c50c8b {
+    .streamerModeEnabledBtn_aa3ffd {
         @include button.button($color-twitch);
     }
 

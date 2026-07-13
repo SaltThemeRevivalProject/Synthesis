@@ -11,17 +11,17 @@
         top: $tag-spacing;
         right: $tag-spacing;
 
-        .gifTag_b30195 {
+        .gifTag_f60819 {
             border-top-right-radius: calc((2 * $item-spacing) - $tag-spacing);
         }
     }
 }
 
-.embedFull_ad0b71,
+.embedFull__623de,
 // Link embed
-.wrapper_b9fe76,
+.wrapper_d5f3cd,
 // Invite embed
-.embedSpotify_ad0b71,
+.embedSpotify__623de,
 // Spotify embed
 .wrapperAudio_f316dd // Audio embed
 {
@@ -30,8 +30,8 @@
 }
 
 // Link embed
-.embedFull_ad0b71 {
-    .embedThumbnail_ad0b71 .imageWrapper__178ee {
+.embedFull__623de {
+    .embedThumbnail__623de .imageWrapper__178ee {
         border-radius: $item-spacing;
     }
 
@@ -50,45 +50,45 @@
 }
 
 // Spoiler embed
-.spoilerContainer_a3d0f7 {
+.spoilerContainer__299eb {
     border-radius: calc(2 * $item-spacing);
 }
 // Attachment embed
-.footer_ad9cbd {
+.footer__4d95d {
     background-color: transparentize($color-button, 0.2);
 }
 
 // Gift embed
-.giftCodeContainer_b558d0 {
-    .tile_ab47a1 {
+.giftCodeContainer_b7e1cb {
+    .tile__72090 {
         background-color: transparentize($color-button, 0.7);
         border-radius: calc(2 * $item-spacing);
 
-        .invalidPoop_ff31dd,
-        .description_ab47a1 {
+        .invalidPoop__857bf,
+        .description__72090 {
             background-color: transparent;
         }
     }
 }
 
 // Spotify/game invite
-.invite_cdcad9 {
+.invite__4d3fa {
     border-radius: $sidebar-spacing;
     background-color: transparentize($color-button, 0.7);
     border: none;
 
-    .header_cdcad9 {
+    .header__4d3fa {
         color: var(--header-secondary);
     }
 
-    .partyMemberEmpty_cdcad9,
-    .moreUsers_cdcad9 {
+    .partyMemberEmpty__4d3fa,
+    .moreUsers__4d3fa {
         background: rgb($color-background);
         color: rgb($color-text);
         opacity: 0.5;
     }
 
-    .artwork_cdcad9 {
+    .artwork__4d3fa {
         border-radius: $item-spacing;
     }
 }

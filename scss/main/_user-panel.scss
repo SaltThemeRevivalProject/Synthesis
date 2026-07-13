@@ -1,0 +1,16 @@
+@use "../top/vars" as *;
+
+/* Old User Panel */
+.panels__5e434 {
+    left: calc(var(--custom-guild-list-width) + 6 * $sidebar-border-width) !important;
+    width: calc(100% - var(--custom-guild-list-width) - 6 * $sidebar-border-width) !important;
+}
+
+.guilds__5e434 {
+    margin-bottom: 0px;
+}
+
+.wrapper_ef3116 {
+    mask: none;
+    -webkit-mask: none;
+}

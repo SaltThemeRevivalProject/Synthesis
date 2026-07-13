@@ -1,24 +1,24 @@
 @use "../../../../top/vars" as *;
 
 // Channel permissions
-.group_e3c4bb {
+.group__344e6 {
     border-radius: $item-spacing;
     border: 2px solid rgb($color-foreground);
     overflow: hidden;
 
     // Denied permission
-    .deny_e3c4bb.selected_e3c4bb,
-    .passthrough_e3c4bb.selected_e3c4bb {
+    .deny__344e6.selected__344e6,
+    .passthrough__344e6.selected__344e6 {
         background-color: transparentize($color-red, 0.5);
     }
 
     // Neutral permission
-    .passthrough_e3c4bb.selected_e3c4bb {
+    .passthrough__344e6.selected__344e6 {
         background-color: transparentize($color-text, 0.5);
     }
 
     // Allowed permission
-    .allow_e3c4bb.selected_e3c4bb {
+    .allow__344e6.selected__344e6 {
         background-color: transparentize($color-green, 0.5);
     }
 }

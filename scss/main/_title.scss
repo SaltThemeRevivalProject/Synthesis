@@ -1,13 +1,13 @@
 @use "../top/vars" as *;
 
 // Top bar
-.title_a7d72e {
+.title_f75fb0 {
     // Search
-    .search_a46bef .DraftEditor-root .DraftEditor-editorContainer {
+    .search_c322aa .DraftEditor-root .DraftEditor-editorContainer {
         height: 24px;
 
-        .searchFilter_b0fa94,
-        .searchAnswer_b0fa94 {
+        .searchFilter_bd8186,
+        .searchAnswer_bd8186 {
             padding: 0 6px;
             border: 2px solid rgb($color-foreground);
             background: var(--background-modifier-selected);
@@ -15,11 +15,11 @@
             line-height: 18px;
         }
 
-        .searchFilter_b0fa94 {
+        .searchFilter_bd8186 {
             border-radius: 10px 0 0 10px;
         }
 
-        .searchAnswer_b0fa94 {
+        .searchAnswer_bd8186 {
             padding-left: 0;
             border-radius: 0 10px 10px 0;
         }
@@ -27,7 +27,7 @@
 }
 
 // Top bar shadow
-.content_a7d72e:before,
-.chat_f57fdc:before {
+.content_f75fb0:before,
+.chat_f02135:before {
     display: none;
 }

@@ -13,7 +13,6 @@
         0 0 30px 0 rgb($color-foreground) inset,
         0 0 20px 0 rgb($color-shadow);
     margin: $outmost-spacing;
-    margin-top: 10px;
     background: rgb($color-shadow / $backdrop-opacity);
 }
 
