@@ -3,10 +3,14 @@
 @use "../top/box";
 
 // Members sidebar
-.container_cbd271 {
+.container_c8ffbb,
+.container__7641b,
+// User Profile in the right side of DM
+.content_f75fb0 aside:has(.outer_c0bea0) {
     position: relative;
     margin: 0 $sidebar-spacing $sidebar-spacing 0;
     height: auto;
+    background: transparent;
     @include box.orange;
 
     // MemberCount plugin
@@ -15,7 +19,7 @@
     }
 
     // Member
-    .layout_e9f61e {
+    .layout__91a9d {
         border-radius: $item-spacing;
     }
 
@@ -25,4 +29,8 @@
         border-radius: calc($sidebar-spacing - $sidebar-border-width);
         @include tint.scanline-overlay();
     }
+}
+
+.member_c8ffbb {
+    background: transparent;
 }

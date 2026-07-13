@@ -3,25 +3,25 @@
 @use "../top/pill";
 
 // Video call
-.callContainer_d880dc {
+.callContainer_cb9592 {
     background: transparent;
 
-    .gradientContainer_dd069c {
+    .gradientContainer_bfe55a {
         background-image: none;
     }
 }
 
 // Forum
-.container_a6d69a {
+.container_f369db {
     background-color: transparent;
 }
 
 // Various views
-.appMount_ea7e65 {
-    .container_f1fd9c,
+.appMount__51fd7 {
+    .container__0b563,
     .container_c2efea,
-    .themed_e44302,
-    .emptyPage_c6b11b,
+    .themed__9293f,
+    .emptyPage__5d7c9,
     .scrollerContainer_c6b11b,
     .pageWrapper_a3a4ce {
         background: transparent;
@@ -43,7 +43,7 @@
         box-shadow: none;
     }
 
-    .select_f6639d {
+    .select_a16aea {
         border-radius: $item-spacing;
     }
 }
@@ -52,4 +52,31 @@
 .background_c54132,
 .headerBarInner_dc1a41:after {
     background: transparent;
+}
+
+// Background
+.wrapper_ef3116,
+.privateChannels_e6b769,
+.scroller__99e7c,
+.panels__5e434,
+.container__2637a,
+.chat_f75fb0,
+.channelTextArea_f75fb0,
+.chatContent_f75fb0,
+.chatGradient__36d07,
+.members_c8ffbb,
+.theme-dark .children__9293f:after {
+    background: transparent;
+}
+
+// User profile next to DM
+.user-profile-sidebar,
+.inner_c0bea0,
+.outer_c0bea0 {
+    border-radius: calc($sidebar-spacing - $sidebar-border-width);
+}
+
+.mask__68edb {
+    border-top-left-radius: calc($sidebar-spacing - $sidebar-border-width);
+    border-top-right-radius: calc($sidebar-spacing - $sidebar-border-width);
 }

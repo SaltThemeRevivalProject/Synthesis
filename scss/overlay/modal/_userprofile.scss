@@ -1,16 +1,16 @@
 @use "../../top/vars" as *;
 
 // Full user profile
-.top_a0 .selected_a0.themed-2-lozF.item_a0,
-.top_a0 .themed-2-lozF.item_a0:active,
-.top_a0 .themed-2-lozF.item_a0:hover {
+.top_aa8da2 .selected_aa8da2.themed-2-lozF.item_aa8da2,
+.top_aa8da2 .themed-2-lozF.item_aa8da2:active,
+.top_aa8da2 .themed-2-lozF.item_aa8da2:hover {
     border-bottom-color: rgb($color-foreground);
 }
 
-.banner_c3e427 {
+.banner__68edb {
     opacity: 70%;
 }
 
-.listRow_e4be58 {
+.listRow__9d78f {
     border-radius: $item-spacing;
 }
