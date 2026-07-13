@@ -1,8 +1,8 @@
-[backgroundless]:   https://saltssaumure.github.io/synthesis-discord-theme/preview/synthesis1.png
-[backgrounded]:     https://saltssaumure.github.io/synthesis-discord-theme/preview/synthesis2.png
+[backgroundless]:   https://saltthemerevivalproject.github.io/Synthesis/preview/synthesis1.png
+[backgrounded]:     https://saltthemerevivalproject.github.io/Synthesis/preview/synthesis2.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb
-[discord]:          https://discord.gg/uy8nKQVatp
+[discord]:          https://discord.gg/NNXFh3bEUK
 
 [BetterDiscord]:    https://betterdiscord.app/
 [Replugged]:        https://replugged.dev/
@@ -11,29 +11,31 @@
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
 [ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-[release-css-gh]:     https://img.shields.io/github/downloads/Saltssaumure/synthesis-discord-theme/Synthesis.theme.css?color=purple&label=Downloads&style=flat-square
-[shield-asar-dl]:   https://img.shields.io/github/downloads/Saltssaumure/synthesis-discord-theme/net.saltssaumure.Synthesis.asar?color=purple&label=Downloads&style=flat-square
-[shield-repo-size]: https://img.shields.io/github/repo-size/Saltssaumure/synthesis-discord-theme?label=Repository&style=flat-square
+[release-css-gh]:     https://img.shields.io/github/downloads/SaltThemeRevivalProject/Synthesis/Synthesis.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/SaltThemeRevivalProject/Synthesis/net.saltssaumure.Synthesis.asar?color=purple&label=Downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/SaltThemeRevivalProject/Synthesis?label=Repository&style=flat-square
 
-[github]:           https://github.com/Saltssaumure/synthesis-discord-theme
-[license]:          https://github.com/Saltssaumure/synthesis-discord-theme/blob/main/LICENSE
-[issues]:           https://github.com/Saltssaumure/synthesis-discord-theme/issues
-[.theme.css]:       https://github.com/Saltssaumure/synthesis-discord-theme/blob/main/Synthesis.theme.css
+[github]:           https://github.com/SaltThemeRevivalProject/Synthesis
+[license]:          https://github.com/SaltThemeRevivalProject/Synthesis/blob/main/LICENSE
+[issues]:           https://github.com/SaltThemeRevivalProject/Synthesis/issues
+[.theme.css]:       https://github.com/SaltThemeRevivalProject/Synthesis/blob/main/Synthesis.theme.css
 
 [release-bd]:       https://betterdiscord.app/theme/?id=770 "BetterDiscord store page"
 [release-rp]:       https://replugged.dev/store/net.saltssaumure.Synthesis "Replugged store page"
-[release-css-gh]:    https://github.com/Saltssaumure/synthesis-discord-theme/releases/latest/download/Synthesis.theme.css "Get latest release"
-[release-rp-gh]:    https://github.com/Saltssaumure/synthesis-discord-theme/releases/latest/download/net.saltssaumure.Synthesis.asar "Get latest release"
+[release-css-gh]:    https://github.com/SaltThemeRevivalProject/Synthesis/releases/latest/download/Synthesis.theme.css "Get latest release"
+[release-rp-gh]:    https://github.com/SaltThemeRevivalProject/Synthesis/releases/latest/download/net.saltssaumure.Synthesis.asar "Get latest release"
 
-[backgrounds]:      https://github.com/Saltssaumure/synthesis-discord-theme/tree/main/backgrounds
+[backgrounds]:      https://github.com/SaltThemeRevivalProject/Synthesis/tree/main/backgrounds
 
 # Synthesis Discord Theme
-[![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
+[![Buy the original creator a coffee on ko-fi][shield-donate]][ko-fi]
 [![CSS GitHub downloads][release-css-gh]][release-css-gh]
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
 ***A vibrant neon synthwave Discord theme.***
+
+This is a fork of the [original](https://github.com/Saltssaumure/synthesis-discord-theme) by Saltssaumure which is currently abandoned.
 
 | Without background                              | With background                                                     |
 | ----------------------------------------------- | ------------------------------------------------------------------- |
@@ -78,13 +80,13 @@
 3. Click `Load missing Themes` and toggle on the theme card.
 #### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
-    - `https://saltssaumure.github.io/synthesis-discord-theme/Synthesis.theme.css`
+    - `https://saltthemerevivalproject.github.io/Synthesis/Synthesis.theme.css`
 </details>
 
 ## Customisation
 | Variable name                           | Description                | Valid values                                                              | Default value                                                                          |
 | --------------------------------------- | -------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| `--synth-background-image`              | Background image           | Image link encased in `url()` or `none`. [Suggested images][backgrounds]. | `url(https://saltssaumure.github.io/synthesis-discord-theme/backgrounds/default.avif)` |
+| `--synth-background-image`              | Background image           | Image link encased in `url()` or `none`. [Suggested images][backgrounds]. | `url(https://saltthemerevivalproject.github.io/Synthesis/backgrounds/default.avif)` |
 | `--synth-backdrop-opacity`              | Backdrop opacity           | A number `0`-`1`.                                                         | `0.3`                                                                                  |
 | `--synth-overlay-color`                 | Overlay tint colour        | Space-separated [`RGB`][css-color] value.                                 | `255 165 0  `                                                                          |
 | `--synth-crt-light`, `--synth-crt-dark` | CRT scanline colour        | Space-separated [`RGB`][css-color] value.                                 | `255 255 255`, `0   0   0`                                                             |
@@ -155,4 +157,4 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
-- Post in `#theme-support` on [my support server][discord].
+- Post in the synthesis channel on [the Discord server][discord].

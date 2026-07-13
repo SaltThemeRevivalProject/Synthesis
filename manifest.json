@@ -15,9 +15,9 @@
   "license": "AGPL-3.0-or-later",
   "type": "replugged-theme",
   "main": "scss/synth.scss",
-  "source": "https://github.com/Saltssaumure/synthesis-discord-theme",
+  "source": "https://github.com/SaltThemeRevivalProject/Synthesis",
   "image": [
-    "https://saltssaumure.github.io/synthesis-discord-theme/preview/synthesis2.png",
-    "https://saltssaumure.github.io/synthesis-discord-theme/preview/synthesis1.png"
+    "https://saltthemerevivalproject.github.io/Synthesis/preview/synthesis2.png",
+    "https://saltthemerevivalproject.github.io/Synthesis/preview/synthesis1.png"
   ]
 }

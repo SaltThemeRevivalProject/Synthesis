@@ -1,20 +1,20 @@
 /**
  * @name Synthesis
- * @author Saltssaumure
+ * @author Saltssaumure, SaltThemeRevivalProject
  * @authorLink https://github.com/Saltssaumure
  * @description A vibrant neon synthwave theme.
  * @license AGPL-3.0-or-later
  * @version 1.8
- * @invite uy8nKQVatp
- * @source https://github.com/Saltssaumure/synthesis-discord-theme
+ * @invite NNXFh3bEUK
+ * @source https://github.com/SaltThemeRevivalProject/Synthesis
  * @donate https://ko-fi.com/saltssaumure
 */
 
-@import url("https://saltssaumure.github.io/synthesis-discord-theme/synth.min.css");
+@import url("https://saltthemerevivalproject.github.io/Synthesis/synth.min.css");
 
-/* See https://github.com/Saltssaumure/synthesis-discord-theme#customisation for customisation settings. */
+/* See https://github.com/SaltThemeRevivalProject/Synthesis#customisation for customisation settings. */
 :root {
-    --synth-background-image:   url(https://saltssaumure.github.io/synthesis-discord-theme/backgrounds/default.avif);
+    --synth-background-image:   url(https://saltthemerevivalproject.github.io/synthesis-discord-theme/backgrounds/default.avif);
     --synth-backdrop-opacity:   0.3         ;
     --synth-overlay-color:      255 165 0   ;
     --synth-crt-light:          255 255 255 ;
