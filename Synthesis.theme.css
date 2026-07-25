@@ -14,7 +14,7 @@
 
 /* See https://github.com/SaltThemeRevivalProject/Synthesis#customisation for customisation settings. */
 :root {
-    --synth-background-image:   url(https://saltthemerevivalproject.github.io/synthesis-discord-theme/backgrounds/default.avif);
+    --synth-background-image:   url(https://saltthemerevivalproject.github.io/Synthesis/backgrounds/default.avif);
     --synth-backdrop-opacity:   0.3         ;
     --synth-overlay-color:      255 165 0   ;
     --synth-crt-light:          255 255 255 ;
