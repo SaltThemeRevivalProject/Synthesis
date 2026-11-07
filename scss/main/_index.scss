@@ -15,18 +15,18 @@
 @use "../top/box";
 
 // Base colour
-.appMount__51fd7,
+.appMount_gEkNtR,
 body {
     background-color: $color-background;
 }
 
 // Image background
-.bg__960e4 {
+.bg_Fd0FEH {
     background: $background-image center/cover;
 }
 
 // Main view
-.container__5e434 {
+.container_pog62O {
     @include box.outmost;
     width: auto;
 
@@ -41,7 +41,7 @@ body {
     }
 
     // Scanline overlay over server and channel sidebars (when not in fullscreen mode)
-    &:not(:has(.fullScreen_cb9592))::before {
+    &:not(:has(.fullScreen_hbKzX7))::before {
         margin: $sidebar-spacing;
         margin-top: 2 * ($sidebar-spacing + $sidebar-border-width);
         width: $sidebar-width;

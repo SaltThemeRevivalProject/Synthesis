@@ -2,11 +2,11 @@
 @use "../../top/box";
 
 // Thread floater (narrow screens)
-.chatTarget__01ae2 {
+.chatTarget_FrbQJp {
     background: transparentize($color-background, $amount: 0.2);
 }
 
-.floating__01ae2 {
+.floating_FrbQJp {
     margin: $sidebar-spacing;
     @include box.blue;
 }

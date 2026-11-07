@@ -3,23 +3,23 @@
 @use "../top/box";
 
 // Servers sidebar
-.guilds__5e434 {
+.guilds_pog62O {
     margin-left: $sidebar-spacing;
     @include box.orange;
 
-    .platform-osx & .scroller_ef3116,
-    .platform-win & .scroller_ef3116 {
+    .platform-osx & .scroller_5dqHTG,
+    .platform-win & .scroller_5dqHTG {
         padding: 12px 0 4px 0;
     }
 
     // New messages pill
     $pill-height: 6px;
 
-    .item__58105 {
+    .item__o8_Xq {
         @include pill.unread($pill-height);
     }
 
-    .pill_e5445c:not(.bd-selected) .item__58105 {
+    .pill_e5445c:not(.bd-selected) .item__o8_Xq {
         height: calc(2 * $pill-height) !important;
 
         &[style="opacity: 1; height: 40px; transform: none;"] {
@@ -28,11 +28,11 @@
     }
 
     // Add and explore buttons
-    .circleIconButton__5bc7e {
+    .circleIconButton_g8YUxD {
         color: rgb($color-green);
     }
 
-    .circleIconButton__5bc7e.selected__5bc7e {
+    .circleIconButton_g8YUxD.selected_g8YUxD {
         color: rgb($color-text);
     }
 }

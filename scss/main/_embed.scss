@@ -11,17 +11,17 @@
         top: $tag-spacing;
         right: $tag-spacing;
 
-        .gifTag_f60819 {
+        .gifTag_czU0Jw {
             border-top-right-radius: calc((2 * $item-spacing) - $tag-spacing);
         }
     }
 }
 
-.embedFull__623de,
+.embedFull_XyW1ZT,
 // Link embed
-.wrapper_d5f3cd,
+.wrapper_jsxF_b,
 // Invite embed
-.embedSpotify__623de,
+.embedSpotify_XyW1ZT,
 // Spotify embed
 .wrapperAudio_f316dd // Audio embed
 {
@@ -30,8 +30,8 @@
 }
 
 // Link embed
-.embedFull__623de {
-    .embedThumbnail__623de .imageWrapper__178ee {
+.embedFull_XyW1ZT {
+    .embedThumbnail_XyW1ZT .imageWrapper__178ee {
         border-radius: $item-spacing;
     }
 
@@ -50,22 +50,22 @@
 }
 
 // Spoiler embed
-.spoilerContainer__299eb {
+.spoilerContainer_0_7_Rr {
     border-radius: calc(2 * $item-spacing);
 }
 // Attachment embed
-.footer__4d95d {
+.footer_BOOBu- {
     background-color: transparentize($color-button, 0.2);
 }
 
 // Gift embed
-.giftCodeContainer_b7e1cb {
-    .tile__72090 {
+.giftCodeContainer_YUQhib {
+    .tile_lS7BT7 {
         background-color: transparentize($color-button, 0.7);
         border-radius: calc(2 * $item-spacing);
 
         .invalidPoop__857bf,
-        .description__72090 {
+        .description_lS7BT7 {
             background-color: transparent;
         }
     }
