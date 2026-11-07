@@ -144,9 +144,9 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 
 ## Credits
 ### Themes
-[radialstatus]: https://github.com/DiscordStyles/RadialStatus
+[radialstatus]: https://github.com/SaltThemeRevivalProject/RadialStatus
 
-- [RadialStatus][radialstatus] by [DiscordStyles](https://github.com/DiscordStyles) ([Gibbu](https://github.com/Gibbu)) - MIT license
+- [RadialStatus][radialstatus] by [DiscordStyles](https://github.com/DiscordStyles), using the [SaltThemeRevivalProject](https://github.com/SaltThemeRevivalProject) fork. ([Gibbu](https://github.com/Gibbu)) - MIT license
 
 ### Fonts
 [inter]:        https://github.com/rsms/inter
