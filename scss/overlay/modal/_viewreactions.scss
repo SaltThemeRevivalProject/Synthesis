@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 
 // View message reactions
-.reactionDefault_b7f4b4 {
+.reactionDefault_quI2qP {
     border-radius: $item-spacing;
 
     &:hover {
@@ -9,15 +9,15 @@
     }
 }
 
-.reactionSelected_b7f4b4 {
+.reactionSelected_quI2qP {
     border-radius: $item-spacing;
     background-color: var(--background-modifier-selected);
 }
 
-.reactors_b7f4b4 {
+.reactors_quI2qP {
     background-color: transparent;
 
-    .remove_b7f4b4 {
+    .remove_quI2qP {
         background-color: var(--background-modifier-hover);
         border-radius: 50%;
         opacity: 1;

@@ -1,18 +1,18 @@
 @use "../../top/vars" as *;
 
 // Emoji picker
-.contentWrapper__08434,
-.didRender_faf9c0 > #emoji-picker-tab-panel {
+.contentWrapper_58b0l2,
+.didRender_98D4cN > #emoji-picker-tab-panel {
     background-color: rgb($color-button);
 
-    .emojiPicker_c0e32c {
+    .emojiPicker_-sZhZn {
         background-color: transparent;
     }
 
     // Header
-    .header_c0e32c,
-    .header__8ef02,
-    .header_fed6d3 {
+    .header_-sZhZn,
+    .header_WSRqCO,
+    .header_rfDq2B {
         background-color: rgb($color-button);
         box-shadow: none;
 
@@ -25,25 +25,25 @@
     }
 
     // Main picker
-    .bodyWrapper_c0e32c,
-    .listWrapper__8ef02,
-    .content_fed6d3 {
+    .bodyWrapper_-sZhZn,
+    .listWrapper_WSRqCO,
+    .content_rfDq2B {
         background-color: rgb($color-background);
 
         // Hovered emoji or sticker
-        .emojiItem_fc7141.emojiItemSelected_fc7141,
-        .stickerInspected_c6367b .inspectedIndicator_c6367b {
+        .emojiItem_6OcK5D.emojiItemSelected_6OcK5D,
+        .stickerInspected_5z8c5P .inspectedIndicator_5z8c5P {
             background-color: transparentize($color-pop, 0.5);
         }
 
         // Loading emoji
-        .imageLoading__1859b {
+        .imageLoading_Uc0G8h {
             background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACGElEQVRoge3asU4bMRzH8Q8OB5XoUFjKWAY6tTtVkULfISpDeYs+R9+CDlT3Du1JILHTqQx0JAt0AKlwROrgCwoUSEJQnJPy3RL5ou/PduyT/54xIK1mmeE1XmEZi5jH7KC/cQ9XuMApjvEbv/IiKwd5eKZfg1azXMQ63mDu0ZrDcYmf2M2L7PShhvcGaDXLBjbwDo2ntBuCDvbxPS+yzl0N7gxQ9fpHcapMAsf4dtdo/Beg1SyX8QnPxyA2DGf4mhfZce+XofdD1fNbJk+e6LRVOV5zHaDVLGfFabMwZrFhWMBm5YqbI7Bhcub8Q7wUXVEFqIZlLZHQY1jrTqXuCKxLt1Q+hobobKbVLOfw2fg2qafiEl8CVtVPnui8GrCS2mQEVoL4r64rLwOWUluMwFIQX4nrynxQr+XzNo3Qv81kMw2QmmmA1EwDpGYaIDXTAKmZBkjNNEBqgngCXFc6QSwu1JWLgJPUFiNwEtBObTEC7YCj1BYjcBRwKB7T1Y0ShyEvsm5BrW4c5EV22d0HdtVrOe1gj2ojq4pn+ymNhmQ/L7ITbu7EP9RjRWqLrugJkBfZFXZwPn6ngTnHTuWKW+9C1VTaFkuak8YZtm/Xih8qdG+anKP3ttjz/QvdXaqrBh/E4l+9rhr00mqWS3iPt8ieVO9+Shxgr7va3EffAF16rtusiPXkF3hm9NHp4C/+iHcijgxx3eYfS5qEazM7noMAAAAASUVORK5CYII=");
         }
     }
 
     // Emoji info
-    .inspector_aeaaeb {
+    .inspector_1bDrGE {
         background-color: transparentize($color-background, 0.2);
     }
 }
@@ -54,6 +54,6 @@
 }
 
 // Emoji info
-.popoutLoadingForeground__0f481 {
+.popoutLoadingForeground_j9Vvzj {
     background: rgb($color-background);
 }

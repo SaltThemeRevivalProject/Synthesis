@@ -2,12 +2,12 @@
 @use "../../../../top/box";
 
 // My Account
-.accountProfileCard__1fed1 {
+.accountProfileCard_a9178b {
     @include box.blue;
     background-color: transparentize($color-background, 0.3);
 
     // Avatar
-    .avatar__1fed1 {
+    .avatar_a9178b {
         border: 0;
         margin: 7px;
     }

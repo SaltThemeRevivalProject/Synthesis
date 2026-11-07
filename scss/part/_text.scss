@@ -3,17 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter&display=swap");
 
 // Code block
-.markup__75297 code,
-.textContainer__4d95d {
+.markup_ku1OHH code,
+.textContainer_BOOBu- {
     background: transparentize($color-button, 0.5);
 }
 
 // Spoiler text
-.spoilerMarkdownContent__299eb {
+.spoilerMarkdownContent_0_7_Rr {
     background: transparentize($color-button, 0.5);
 
-    &.hidden__299eb {
-        @extend .spoilerMarkdownContent__299eb;
+    &.hidden_0_7_Rr {
+        @extend .spoilerMarkdownContent_0_7_Rr;
 
         &:hover {
             background: rgb($color-button);

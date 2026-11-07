@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 @use "../top/button";
 
-.appMount__51fd7 {
+.appMount_gEkNtR {
     $button-transparency: 0.3;
     $button-disabled-transparency: 0.8;
     $button-active-darken: 5;
@@ -41,27 +41,27 @@
     --button-outline-brand-background-active: #{rgb($color-button)};
 
     // Buttons
-    .button__201d5,
+    .button_9OQtot,
     .bd-button:not(.bd-addon-button),
-    .topPill_aa8da2 .item_aa8da2,
+    .topPill_6zZYhF .item_6zZYhF,
     #bd-pub-button,
-    .streamerModeEnabledBtn_aa3ffd,
+    .streamerModeEnabledBtn_yz0Tww,
     .button__33db6 {
         border-radius: 50px;
     }
 
     // More buttons
-    .lookFilled__201d5,
-    .lookOutlined__201d5,
+    .lookFilled_9OQtot,
+    .lookOutlined_9OQtot,
     .lookInverted_a299dc {
         box-shadow: 0 0 5px 0 rgb($color-background);
     }
 
-    .lookFilled__201d5.colorBrand__201d5 {
+    .lookFilled_9OQtot.colorBrand_9OQtot {
         @include button.button($color-button);
     }
 
-    .lookInverted_a299dc.colorBrand__201d5 {
+    .lookInverted_a299dc.colorBrand_9OQtot {
         @include button.button($color-text);
     }
 
@@ -74,7 +74,7 @@
         @include button.button($color-red);
     }
 
-    .circleIconButton__5bc7e.selected__5bc7e {
+    .circleIconButton_g8YUxD.selected_g8YUxD {
         @include button.button($color-green);
     }
 
@@ -83,11 +83,11 @@
         @include button.button($color-button);
     }
 
-    .lookLink__201d5.colorLink__201d5 {
+    .lookLink_9OQtot.colorLink_9OQtot {
         --text-link: #{rgb($color-text)};
     }
 
-    .lookLink__201d5.colorPrimary__201d5 {
+    .lookLink_9OQtot.colorPrimary_9OQtot {
         color: #{rgb($color-text)};
     }
 
@@ -100,7 +100,7 @@
         }
     }
 
-    .streamerModeEnabledBtn_aa3ffd {
+    .streamerModeEnabledBtn_yz0Tww {
         @include button.button($color-twitch);
     }
 

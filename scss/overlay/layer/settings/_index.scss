@@ -8,7 +8,7 @@
 @use "../../../top/slider";
 
 // Settings
-.standardSidebarView__23e6b {
+.standardSidebarView_jnk11m {
     @include box.outmost;
 
     // Scanline and tint overlay over whole view
@@ -21,42 +21,42 @@
     }
 
     // Settings sidebar
-    .sidebar__23e6b {
-        .item_aa8da2,
+    .sidebar_jnk11m {
+        .item_6zZYhF,
         .background_e681d1 {
             border-radius: $size-s;
         }
     }
 
     // Large menu items and info cards
-    .item__88a69,
-    .radioBar__88a69,
-    .card__73069,
+    .item_jqZBm0,
+    .radioBar_jqZBm0,
+    .card_qCN-Ri,
     .container__6436f {
         border-radius: $size-m;
     }
 
     // Bar sliders
-    .slider_a562c8 {
-        .markDash_a562c8 {
+    .slider_p3RiOL {
+        .markDash_p3RiOL {
             background: rgb($color-foreground);
         }
 
-        .defaultValue_a562c8 .markValue_a562c8 {
+        .defaultValue_p3RiOL .markValue_p3RiOL {
             color: rgb($color-text);
         }
 
-        .bar_a562c8 {
+        .bar_p3RiOL {
             background: transparentize($color-pop, 0.5);
             overflow: visible;
 
-            .barFill_a562c8 {
+            .barFill_p3RiOL {
                 border-radius: $size-xs;
                 @include slider.bar($color-pop);
             }
         }
 
-        .grabber_a562c8 {
+        .grabber_p3RiOL {
             $grabber-size: 15px;
             border: none;
             height: $grabber-size;
@@ -75,7 +75,7 @@
     }
 
     // Careful you have unsaved changes!
-    .container__9a9f9 {
+    .container_aTnRjo {
         background-color: transparentize($color-green, 0.5) !important;
         border-radius: $size-m;
     }

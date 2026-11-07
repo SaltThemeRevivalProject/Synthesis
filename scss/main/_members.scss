@@ -3,10 +3,10 @@
 @use "../top/box";
 
 // Members sidebar
-.container_c8ffbb,
-.container__7641b,
+.container_86es0b,
+.container_UPjGEs,
 // User Profile in the right side of DM
-.content_f75fb0 aside:has(.outer_c0bea0) {
+.content_z_gUBg aside:has(.outer_P1YEjQ) {
     position: relative;
     margin: 0 $sidebar-spacing $sidebar-spacing 0;
     height: auto;
@@ -19,7 +19,7 @@
     }
 
     // Member
-    .layout__91a9d {
+    .layout_J1Adu_ {
         border-radius: $item-spacing;
     }
 
@@ -31,6 +31,6 @@
     }
 }
 
-.member_c8ffbb {
+.member_86es0b {
     background: transparent;
 }

@@ -7,7 +7,7 @@
 .userPopoutInner_c69a7b {
     max-height: calc(100vh - $outmost-spacing);
 
-    .banner__68edb {
+    .banner_s9bWOi {
         mask-image: linear-gradient(black, black 60%, transparent);
     }
 
@@ -57,13 +57,13 @@
             .defaultColor__77578,
             .userTagUsernameBase_c9ccf6,
             .discordIcon__1e1be,
-            .textarea__9daae,
-            .input__0ed4f,
+            .textarea_7NTkEC,
+            .input_b-mzk1,
             .customStatus__3aa7f,
             :is(.activityProfile_c1d9fd, .activityProfileV2_c1d9fd, .activityUserPopout_c1d9fd, .activityUserPopoutV2_c1d9fd)
-                :is(.activityName__2ef49, .content__2ef49, .details__2ef49, .name__2ef49, .nameNormal__2ef49, .nameWrap__2ef49),
-            .themed_c8b06d .textLeft_c8b06d,
-            .themed_c8b06d .textRight_c8b06d
+                :is(.activityName_ZbIvmP, .content_ZbIvmP, .details_ZbIvmP, .name_ZbIvmP, .nameNormal_ZbIvmP, .nameWrap_ZbIvmP),
+            .themed_5Hv024 .textLeft_5Hv024,
+            .themed_5Hv024 .textRight_5Hv024
         ) {
             color: rgb($color-background);
         }

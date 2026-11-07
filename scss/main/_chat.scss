@@ -3,28 +3,28 @@
 @use "../top/box";
 
 // Main chat
-.chatContent_f75fb0 {
-    .messagesWrapper__36d07 {
+.chatContent_z_gUBg {
+    .messagesWrapper_8AE1Qq {
         margin-bottom: 4px;
 
         // New messages bar
-        .newMessagesBar__0f481 {
+        .newMessagesBar_j9Vvzj {
             min-height: 30px;
             top: -8px;
             background: linear-gradient(transparent, transparentize($color-blurple, 0.4) 40%, transparentize($color-blurple, 0.2));
         }
 
         // Jump to present bar
-        .jumpToPresentBar__0f481 {
+        .jumpToPresentBar_j9Vvzj {
             background: linear-gradient(transparentize($color-button, 0.2), transparentize($color-button, 0.4) 60%, transparent);
         }
 
         // Chat message
-        .messageListItem__5126c {
+        .messageListItem_SY_P2T {
             margin-left: 17px;
 
             // Options bar
-            .wrapper_f7ecac {
+            .wrapper_Z0MHyc {
                 @include box.orange-small;
                 height: 34px;
 
@@ -36,7 +36,7 @@
             }
 
             // @ Mention
-            .wrapper__6c798 {
+            .wrapper__rPLAA {
                 background: transparentize($color-blurple, 0.7);
                 color: rgb($color-blurple);
 
@@ -47,25 +47,25 @@
             }
 
             // Reaction
-            .reaction_f8896c {
+            .reaction_UNkajC {
                 border-radius: $item-spacing;
 
                 &:hover {
                     border-color: rgb($color-foreground);
                 }
 
-                &.reactionMe_f8896c {
+                &.reactionMe_UNkajC {
                     background-color: transparentize($color-foreground, 0.7);
 
                     &:not(:hover) {
                         border-color: transparent;
                     }
 
-                    .reactionCount_f8896c {
+                    .reactionCount_UNkajC {
                         color: rgb($color-foreground);
                     }
 
-                    &:hover .reactionCount_f8896c {
+                    &:hover .reactionCount_UNkajC {
                         color: var(--interactive-hover);
                     }
                 }
@@ -74,14 +74,14 @@
             @import "_embed";
 
             // Thread
-            .container__9271d {
+            .container_g2fiji {
                 border-radius: $item-spacing;
                 background-color: transparentize($color-foreground, 0.7);
             }
         }
 
         // Chat dividers
-        .divider__908e2 {
+        .divider_4TfzT5 {
             border-top: none;
             background-color: rgb($color-foreground);
             height: 2px;
@@ -90,7 +90,7 @@
             justify-content: center;
 
             // New message divider pill
-            .unreadPill__908e2 {
+            .unreadPill_4TfzT5 {
                 border-radius: $item-spacing;
                 color: rgb($color-foreground);
                 padding: 2px 10px;
@@ -99,13 +99,13 @@
                 text-transform: capitalize;
                 box-shadow: 0 0 5px 1px rgb($color-foreground);
 
-                .unreadPillCap__908e2 {
+                .unreadPillCap_4TfzT5 {
                     display: none;
                 }
             }
 
             // Date change divider
-            .content__908e2 {
+            .content_4TfzT5 {
                 background: rgb($color-foreground);
                 color: rgb($color-text);
                 padding: 2px 10px;
@@ -116,14 +116,14 @@
             }
         }
 
-        .group-spacing-16 .divider__5126c {
+        .group-spacing-16 .divider_SY_P2T {
             margin-top: 20px;
             margin-bottom: 30px;
         }
     }
 
     // Chat text area
-    .scrollableContainer__74017 {
+    .scrollableContainer_2x8-Qn {
         @include box.orange;
 
         &::before {
@@ -134,18 +134,18 @@
         }
 
         // Attachments
-        .channelAttachmentArea_b77158 {
+        .channelAttachmentArea_iH8bsl {
             // Options bar
-            .wrapper_f7ecac {
+            .wrapper_Z0MHyc {
                 @include box.orange-small;
                 height: 34px;
             }
 
             // Spoiler
-            .spoilerContainer__299eb {
+            .spoilerContainer_0_7_Rr {
                 border-radius: $sidebar-spacing;
 
-                .media__41ea0 {
+                .media_sBdlOA {
                     border-radius: $sidebar-spacing;
                 }
             }
@@ -153,12 +153,12 @@
     }
 
     // Chat slowmode info
-    .cooldownWrapper_b21699 {
+    .cooldownWrapper_bbCgC2 {
         color: transparentize($color-text, 0.5) !important;
     }
 
     // Chat autocomplete suggestions
-    .autocomplete__13533 {
+    .autocomplete_CAMiwx {
         @include box.orange;
         background-color: rgb($color-background);
 
@@ -169,12 +169,12 @@
         }
 
         // Group
-        .categoryHeader_d1405b {
+        .categoryHeader_3dKq9h {
             background-color: rgb($color-background);
         }
 
         // Option
-        .base__13533 {
+        .base_CAMiwx {
             border-radius: $item-spacing;
         }
     }
@@ -186,16 +186,16 @@
 }
 
 // Chat input
-.form_f75fb0,
-.formWithLoadedChatInput_f75fb0 {
+.form_z_gUBg,
+.formWithLoadedChatInput_z_gUBg {
     margin: $size-m;
     margin-top: -0.5 * $size-m;
 }
 
-.channelTextArea_f75fb0 {
+.channelTextArea_z_gUBg {
     border-radius: $size-m;
 }
 
-.themedBackground__74017 {
+.themedBackground_2x8-Qn {
     background: rgba(0, 0, 0, 0.3);
 }
